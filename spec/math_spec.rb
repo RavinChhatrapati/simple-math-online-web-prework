@@ -40,6 +40,6 @@ describe "order_of_operations" do
   it "uses parenthesis to set the order of operations properly" do
     expect(order_of_operation(7, 43, 23, 83)).to eq(18)
   end
-end
+
 
 
